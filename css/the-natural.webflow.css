@@ -10,6 +10,22 @@
   grid-column-gap: 16px;
 }
 
+.w-embed-youtubevideo {
+  width: 100%;
+  position: relative;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.w-embed-youtubevideo:empty {
+  min-height: 75px;
+  padding-bottom: 56.25%;
+}
+
 body {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #333;
@@ -2826,6 +2842,86 @@ a {
   align-self: center;
 }
 
+.blog-4 {
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: 1px none #000;
+}
+
+.blog-4.bg-image {
+  overflow: visible;
+  background-image: url('../images/1012pre.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.blog-5 {
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: 1px none #000;
+}
+
+.blog-5.bg-image {
+  overflow: visible;
+  background-image: url('../images/1012discussion.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.blog-7 {
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: 1px none #000;
+}
+
+.blog-7.bg-image {
+  overflow: visible;
+  background-image: url('../images/The-Birth-of-a-Cloud.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.blog-6 {
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: 1px none #000;
+}
+
+.blog-6.bg-image {
+  overflow: visible;
+  background-image: url('../images/Brain-Storm.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.code-block {
+  background-color: #fafafa;
+  font-family: Menlo, sans-serif;
+  color: #666;
+  line-height: 32px;
+  text-align: left;
+}
+
+.video {
+  margin-top: 64px;
+}
+
 @media screen and (max-width: 991px) {
   .nav-menu {
     left: 30%;
@@ -3520,6 +3616,18 @@ a {
   }
   .team-wrapper {
     margin-top: 0vh;
+  }
+  .blog-4.bg-image {
+    background-position: 50% 50%;
+  }
+  .blog-5.bg-image {
+    background-position: 50% 50%;
+  }
+  .blog-7.bg-image {
+    background-position: 50% 50%;
+  }
+  .blog-6.bg-image {
+    background-position: 50% 50%;
   }
 }
 
