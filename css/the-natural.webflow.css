@@ -1050,6 +1050,7 @@ a {
 .blog-2.bg-image {
   overflow: visible;
   background-image: url('../images/小组0927_看图王.jpg');
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1067,6 +1068,7 @@ a {
 .blog-3.bg-image {
   overflow: visible;
   background-image: url('../images/小组1003_看图王.jpg');
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2854,6 +2856,7 @@ a {
 .blog-4.bg-image {
   overflow: visible;
   background-image: url('../images/1012pre.PNG');
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2871,6 +2874,7 @@ a {
 .blog-5.bg-image {
   overflow: visible;
   background-image: url('../images/1012discussion.jpg');
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2888,6 +2892,7 @@ a {
 .blog-7.bg-image {
   overflow: visible;
   background-image: url('../images/The-Birth-of-a-Cloud.jpg');
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2905,6 +2910,7 @@ a {
 .blog-6.bg-image {
   overflow: visible;
   background-image: url('../images/Brain-Storm.jpg');
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
