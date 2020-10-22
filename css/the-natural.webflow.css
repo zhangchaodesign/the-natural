@@ -1009,7 +1009,7 @@ a {
   align-items: flex-start;
 }
 
-.number {
+.number-big {
   position: relative;
   font-family: Telugumn, sans-serif;
   color: grey;
@@ -1018,7 +1018,7 @@ a {
   font-weight: 400;
 }
 
-.number.zero {
+.number-big.zero {
   color: #aaa;
 }
 
@@ -2891,7 +2891,7 @@ a {
 
 .blog-7.bg-image {
   overflow: visible;
-  background-image: url('../images/The-Birth-of-a-Cloud.jpg');
+  background-image: url('../images/7-0a.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
